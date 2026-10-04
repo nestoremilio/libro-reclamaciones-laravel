@@ -1,0 +1,46 @@
+<?php
+
+return [
+    'accepted'             => 'Debe aceptar :attribute.',
+    'alpha_num'            => 'El campo :attribute solo debe contener letras y números.',
+    'boolean'              => 'El campo :attribute debe ser verdadero o falso.',
+    'digits'               => 'El campo :attribute debe tener :digits dígitos.',
+    'email'                => 'Ingrese un correo electrónico válido.',
+    'file'                 => 'El campo :attribute debe ser un archivo.',
+    'in'                   => 'El valor de :attribute no es válido.',
+    'max'                  => [
+        'file'    => 'El archivo no debe pesar más de :max kilobytes.',
+        'numeric' => 'El campo :attribute no debe ser mayor que :max.',
+        'string'  => 'El campo :attribute no debe superar :max caracteres.',
+    ],
+    'mimes'                => 'El archivo debe ser de tipo: :values.',
+    'min'                  => [
+        'file'    => 'El archivo debe pesar al menos :min kilobytes.',
+        'numeric' => 'El campo :attribute debe ser al menos :min.',
+        'string'  => 'El campo :attribute debe tener al menos :min caracteres.',
+    ],
+    'numeric'              => 'El campo :attribute debe ser un número.',
+    'required'             => 'El campo :attribute es obligatorio.',
+    'required_if_accepted' => 'El campo :attribute es obligatorio.',
+    'string'               => 'El campo :attribute debe ser texto.',
+
+    'attributes' => [
+        'nombres_apellidos' => 'nombres y apellidos',
+        'tipo_documento'    => 'tipo de documento',
+        'numero_documento'  => 'número de documento',
+        'domicilio'         => 'domicilio',
+        'telefono'          => 'teléfono',
+        'correo'            => 'correo electrónico',
+        'apoderado_nombre'  => 'apoderado',
+        'tipo_bien'         => 'tipo de bien',
+        'monto_reclamado'   => 'monto reclamado',
+        'descripcion_bien'  => 'descripción del bien',
+        'tipo_registro'     => 'tipo de registro',
+        'detalle'           => 'detalle',
+        'pedido'            => 'pedido',
+        'evidencia'         => 'evidencia',
+        'respuesta'         => 'respuesta',
+        'email'             => 'correo electrónico',
+        'password'          => 'contraseña',
+    ],
+];
